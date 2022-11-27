@@ -4,16 +4,16 @@
   outputs = _:
     {
       legacyPackages.x86_64-linux.database = builtins.fetchurl {
-        url = "https://github.com/badele/fork-nix-index-database/releases/download/2022-11-06/index-x86_64-linux";
-        sha256 = "137knk91spd2saii2lgyyrp5y0xzyn32y61slhigkqhh02qybna0";
+        url = "https://github.com/badele/fork-nix-index-database/releases/download/2022-11-27/index-x86_64-linux";
+        sha256 = "0cmqwmkdlvqiq2gw37q9wscgyyhgy7fpw561hlw69k5ff3qrznzr";
       };
       legacyPackages.x86_64-darwin.database = builtins.fetchurl {
-        url = "https://github.com/badele/fork-nix-index-database/releases/download/2022-11-06/index-x86_64-darwin";
-        sha256 = "0nbgw2j8ka2rih89kx8dpzrvxy46ybzxir3vdncv5y1dznly31v9";
+        url = "https://github.com/badele/fork-nix-index-database/releases/download/2022-11-27/index-x86_64-darwin";
+        sha256 = "05q7izv8iflaylj6b83v9d5xfjx26xg8jqmq2n8ymvnyd9855gq5";
       };
       legacyPackages.aarch64-linux.database = builtins.fetchurl {
-        url = "https://github.com/badele/fork-nix-index-database/releases/download/2022-11-06/index-aarch64-linux";
-        sha256 = "1i0lc6jk8fqvmzh180b5ahd61dixn5hifdsqanr5841xhxqn1wp7";
+        url = "https://github.com/badele/fork-nix-index-database/releases/download/2022-11-27/index-aarch64-linux";
+        sha256 = "1mwf31xfwrrs7acxff4hi08vmfkp6b11134v58immgy4ab08pm1p";
       };
     };
 }
