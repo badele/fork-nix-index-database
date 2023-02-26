@@ -4,16 +4,16 @@
   outputs = _:
     {
       legacyPackages.x86_64-linux.database = builtins.fetchurl {
-        url = "https://github.com/badele/fork-nix-index-database/releases/download/2023-02-19/index-x86_64-linux";
-        sha256 = "0w0jb80am5615j5gi6hkd9alznnjw69532f4qblglsx2axvkr28w";
+        url = "https://github.com/badele/fork-nix-index-database/releases/download/2023-02-26/index-x86_64-linux";
+        sha256 = "";
       };
       legacyPackages.x86_64-darwin.database = builtins.fetchurl {
-        url = "https://github.com/badele/fork-nix-index-database/releases/download/2023-02-19/index-x86_64-darwin";
-        sha256 = "00b7vwcizj267598n4qn2wpw1avx6cdc7wv19c1r6z47f9fdnr6h";
+        url = "https://github.com/badele/fork-nix-index-database/releases/download/2023-02-26/index-x86_64-darwin";
+        sha256 = "";
       };
       legacyPackages.aarch64-linux.database = builtins.fetchurl {
-        url = "https://github.com/badele/fork-nix-index-database/releases/download/2023-02-19/index-aarch64-linux";
-        sha256 = "0jb6q6660rkqshq9vlppcv4jbny2a36bqijah93wyis4qndshgbm";
+        url = "https://github.com/badele/fork-nix-index-database/releases/download/2023-02-26/index-aarch64-linux";
+        sha256 = "";
       };
     };
 }
